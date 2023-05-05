@@ -1,0 +1,87 @@
+body {
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #EEEEEE;
+}
+
+h1 {
+  color: #293242;
+  text-align: center;
+}
+
+h2 {
+  color: #EEEEEE;
+  text-align: center;
+}
+
+form {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1rem;
+  margin: 1rem;
+  padding: 1rem;
+  background-color: #916848;
+  border: 1px solid #293242;
+  border-radius: 10px;
+}
+
+.form-group {
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+  width: 100%;
+  padding: 1rem;
+}
+
+.form-group input[type="text"],
+.form-group textarea {
+  padding: 0.5rem;
+  border: 1px solid #916848;
+  border-radius: 5px;
+  width: 100%;
+  height: 40px;
+}
+
+.form-group input[type="file"] {
+  display: none;
+}
+
+.form-group label {
+  background-color: #293242;
+  border: 1px solid #ddd;
+  cursor: pointer;
+  display: inline-block;
+  padding: 0.5rem;
+  text-align: center;
+  width: 100%;
+  color: #EEEEEE;
+}
+
+.submit-btn {
+  padding: 0.5rem 1rem;
+  background-color: #293242;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  margin: 1rem;
+  align-self: flex-end;
+}
+
+.submit-btn:hover {
+  background-color: #7a5336;
+}
+
+@media screen and (min-width: 768px) {
+  .form-group {
+    width: 100%;
+  }
+}
+
+@media screen and (min-width: 1200px) {
+  .form-group {
+    width: 100%;
+  }
+}
+
